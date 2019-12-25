@@ -22,5 +22,9 @@ export default async (req: NowRequest, res: NowResponse) => {
   const versions = dist
     .filter(({ lts }) => lts !== false && lts.toLowerCase() === requestLtsLowerCase)
     .map(({ version }) => version)
-  res.json(versions)
+  if (versions.length === 0) {
+    res.status(404)
+  } else {
+    res.json(versions)
+  }
 }
