@@ -1,4 +1,5 @@
 {
+  "alias": "node-lts-versions",
   "rewrites": [
     { "source": "/", "destination": "/api" },
     { "source": "/:lts", "destination": "/api/:lts" }
