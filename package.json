@@ -1,0 +1,28 @@
+{
+  "name": "node-lts-versions",
+  "version": "1.0.0",
+  "description": "Get LTS versions of node.js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "now dev",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/node-lts-versions.git"
+  },
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Gerhut/node-lts-versions/issues"
+  },
+  "homepage": "https://github.com/Gerhut/node-lts-versions#readme",
+  "devDependencies": {
+    "@now/node": "^1.3.0",
+    "@types/node-fetch": "^2.5.4",
+    "now": "^16.7.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
