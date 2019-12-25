@@ -23,7 +23,7 @@ export default async (req: NowRequest, res: NowResponse) => {
     .filter(({ lts }) => lts !== false && lts.toLowerCase() === requestLtsLowerCase)
     .map(({ version }) => version)
   if (versions.length === 0) {
-    res.status(404)
+    res.status(404).send(null)
   } else {
     res.json(versions)
   }
