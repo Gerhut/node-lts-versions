@@ -1,0 +1,33 @@
+{
+  "name": "node-lts-versions",
+  "version": "1.0.0",
+  "description": "Node LTS versions renderer.",
+  "homepage": "https://github.com/Gerhut/node-lts-versions#readme",
+  "bugs": {
+    "url": "https://github.com/Gerhut/node-lts-versions/issues"
+  },
+  "license": "Unlicense",
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/node-lts-versions.git"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "eslint ."
+  },
+  "dependencies": {
+    "semver": "^7.7.1",
+    "undici": "^7.8.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
+  },
+  "private": true
+}
